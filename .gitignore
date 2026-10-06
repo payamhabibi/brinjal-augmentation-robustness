@@ -1,0 +1,16 @@
+# Local experiment files
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.zip
+data/
+dataset/
+datasets/
+Raw/
+Augmented/
+__pycache__/
+*.py[cod]
+.venv/
+env/
+notebooks/Brinjal_Final_Preprocessed_reconstructed.ipynb
