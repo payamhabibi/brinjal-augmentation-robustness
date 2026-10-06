@@ -1,0 +1,5 @@
+strategy,condition,baseline_macro_f1_mean,targeted_macro_f1_mean,delta_macro_f1
+Rotate,Rotate_-45,0.564692,0.894899,0.330207
+Rotate,Rotate_+45,0.616031,0.890940,0.274909
+Brightness,Brightness_0.60,0.855837,0.895631,0.039794
+Brightness,Brightness_1.60,0.689071,0.889478,0.200407
