@@ -181,7 +181,8 @@ Paired significance was assessed using exact McNemar tests with Benjamini-Hochbe
 .
 ├── README.md
 ├── notebooks/
-│   └── Brinjal_Final_Preprocessed.ipynb
+│   ├── README.md
+│   └── source_part_01.py ... source_part_07.py
 ├── results/
 │   ├── baseline/
 │   ├── robustness/
@@ -191,7 +192,9 @@ Paired significance was assessed using exact McNemar tests with Benjamini-Hochbe
 ├── figures/
 ├── src/
 ├── configs/
-└── LICENSE
+├── scripts/
+│   └── reconstruct_notebook.py
+└── .gitignore
 ```
 
 Large datasets, raw image folders, and heavyweight binary checkpoints are intentionally excluded from the public repository unless explicitly released.
@@ -207,7 +210,7 @@ Large datasets, raw image folders, and heavyweight binary checkpoints are intent
 7. Run the statistical analysis cells after all predictions are generated.
 8. Run the A3 unseen-severity experiment last.
 
-The notebook contains the exact experiment code and the saved output paths used during the study.
+The complete executable source and recorded outputs are distributed as notebook source parts under `notebooks/` and execution-output files under `results/`. Use `python scripts/reconstruct_notebook.py` to rebuild a notebook containing the code cells and recorded outputs.
 
 ## Citation
 
